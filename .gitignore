@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.eclipse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specifics
+uploads/

@@ -1,0 +1,37 @@
+{
+  "resources": [
+    {"id": "res-os-1", "title": "Operating Systems Notes", "description": "Comprehensive notes on Operating Systems", "resourceType": "PDF", "url": "http://example.com/os-notes.pdf", "source": "University", "author": "Dr. Smith", "difficulty": "Intermediate", "publicationDate": "2023-01-01", "covers": ["os-1", "os-4", "os-5", "os-6", "os-7"]},
+    {"id": "res-os-2", "title": "OS Synchronization Lecture", "description": "Video lecture on synchronization", "resourceType": "VIDEO", "url": "http://example.com/sync-video", "source": "YouTube", "author": "Tech Academy", "difficulty": "Intermediate", "publicationDate": "2023-02-01", "covers": ["os-4", "os-5", "os-6"]},
+    {"id": "res-os-3", "title": "Deadlock Lecture", "description": "Detailed video on Deadlocks", "resourceType": "VIDEO", "url": "http://example.com/deadlock-video", "source": "YouTube", "author": "Tech Academy", "difficulty": "Advanced", "publicationDate": "2023-03-01", "covers": ["os-7", "os-8", "os-9", "os-10"]},
+    {"id": "res-os-4", "title": "Process Management Notes", "description": "PDF notes on Process and Threads", "resourceType": "PDF", "url": "http://example.com/process.pdf", "source": "University", "author": "Dr. Smith", "difficulty": "Beginner", "publicationDate": "2023-04-01", "covers": ["os-2", "os-3"]},
+    
+    {"id": "res-db-1", "title": "SQL Fundamentals Notes", "description": "Basic SQL guide", "resourceType": "PDF", "url": "http://example.com/sql.pdf", "source": "Web", "author": "DB Expert", "difficulty": "Beginner", "publicationDate": "2023-05-01", "covers": ["dbms-3", "dbms-7", "dbms-8"]},
+    {"id": "res-db-2", "title": "Database Normalization Notes", "description": "Guide on normalization", "resourceType": "BLOG", "url": "http://example.com/normalization", "source": "Blog", "author": "Jane Doe", "difficulty": "Intermediate", "publicationDate": "2023-06-01", "covers": ["dbms-1", "dbms-2", "dbms-4"]},
+    {"id": "res-db-3", "title": "Transactions Lecture", "description": "Lecture on ACID", "resourceType": "NPTEL_LECTURE", "url": "http://example.com/acid", "source": "NPTEL", "author": "Prof. X", "difficulty": "Advanced", "publicationDate": "2023-07-01", "covers": ["dbms-5", "dbms-6"]},
+    {"id": "res-db-4", "title": "Indexing Notes", "description": "Advanced indexing", "resourceType": "PDF", "url": "http://example.com/indexing.pdf", "source": "Web", "author": "DB Expert", "difficulty": "Expert", "publicationDate": "2023-08-01", "covers": ["dbms-9", "dbms-10"]},
+
+    {"id": "res-nw-1", "title": "Computer Networks Fundamentals", "description": "Intro to networking", "resourceType": "BOOK", "url": "http://example.com/cn-book", "source": "Publisher", "author": "Author Y", "difficulty": "Beginner", "publicationDate": "2023-09-01", "covers": ["nw-1", "nw-2", "nw-3"]},
+    {"id": "res-nw-2", "title": "TCP/IP Lecture", "description": "TCP/IP Suite", "resourceType": "VIDEO", "url": "http://example.com/tcpip", "source": "YouTube", "author": "Net Guru", "difficulty": "Intermediate", "publicationDate": "2023-10-01", "covers": ["nw-3", "nw-4", "nw-5", "nw-6"]},
+    {"id": "res-nw-3", "title": "HTTP Fundamentals", "description": "Web protocols", "resourceType": "BLOG", "url": "http://example.com/http", "source": "Web", "author": "Web Dev", "difficulty": "Beginner", "publicationDate": "2023-11-01", "covers": ["nw-7", "nw-8", "nw-9", "nw-10"]},
+
+    {"id": "res-oop-1", "title": "OOP Fundamentals", "description": "Intro to OOP", "resourceType": "PDF", "url": "http://example.com/oop.pdf", "source": "University", "author": "Dr. Z", "difficulty": "Beginner", "publicationDate": "2023-12-01", "covers": ["oop-1", "oop-2", "oop-3"]},
+    {"id": "res-oop-2", "title": "Java OOP Notes", "description": "Java specifics", "resourceType": "GITHUB", "url": "http://example.com/java-oop", "source": "GitHub", "author": "Coder", "difficulty": "Intermediate", "publicationDate": "2024-01-01", "covers": ["oop-4", "oop-5", "oop-6", "oop-7"]},
+    {"id": "res-oop-3", "title": "Design Patterns Introduction", "description": "GoF patterns", "resourceType": "BOOK", "url": "http://example.com/patterns", "source": "Publisher", "author": "GoF", "difficulty": "Expert", "publicationDate": "2024-02-01", "covers": ["oop-8", "oop-9", "oop-10"]},
+
+    {"id": "res-dsa-1", "title": "Arrays and Searching", "description": "Basics of arrays", "resourceType": "VIDEO", "url": "http://example.com/arrays", "source": "YouTube", "author": "Alg Expert", "difficulty": "Beginner", "publicationDate": "2024-03-01", "covers": ["dsa-1", "dsa-2", "dsa-3"]},
+    {"id": "res-dsa-2", "title": "Sorting Algorithms", "description": "Sorting deep dive", "resourceType": "DOCUMENTATION", "url": "http://example.com/sorting", "source": "Web", "author": "Alg Expert", "difficulty": "Intermediate", "publicationDate": "2024-04-01", "covers": ["dsa-4", "dsa-5", "dsa-6"]},
+    {"id": "res-dsa-3", "title": "Trees and BST", "description": "Tree data structures", "resourceType": "NPTEL_LECTURE", "url": "http://example.com/trees", "source": "NPTEL", "author": "Prof. T", "difficulty": "Advanced", "publicationDate": "2024-05-01", "covers": ["dsa-7", "dsa-8", "dsa-9"]},
+    {"id": "res-dsa-4", "title": "Graph Algorithms", "description": "Graph theory", "resourceType": "RESEARCH_PAPER", "url": "http://example.com/graphs", "source": "IEEE", "author": "Dr. G", "difficulty": "Expert", "publicationDate": "2024-06-01", "covers": ["dsa-10"]}
+  ],
+  "sections": [
+    {"id": "sec-1", "resourceId": "res-os-1", "title": "Introduction to Synchronization", "sectionNumber": 1, "pageStart": 1, "pageEnd": 5, "covers": ["os-4"]},
+    {"id": "sec-2", "resourceId": "res-os-1", "title": "Critical Section", "sectionNumber": 2, "pageStart": 6, "pageEnd": 10, "covers": ["os-4"]},
+    {"id": "sec-3", "resourceId": "res-os-1", "title": "Mutex", "sectionNumber": 3, "pageStart": 11, "pageEnd": 15, "covers": ["os-5"]},
+    {"id": "sec-4", "resourceId": "res-os-1", "title": "Semaphore", "sectionNumber": 4, "pageStart": 16, "pageEnd": 20, "covers": ["os-6"]},
+    {"id": "sec-5", "resourceId": "res-os-1", "title": "Deadlock", "sectionNumber": 5, "pageStart": 21, "pageEnd": 25, "covers": ["os-7"]}
+  ],
+  "chunks": [
+    {"id": "chk-1", "sectionId": "sec-4", "resourceId": "res-os-1", "content": "A semaphore is a synchronization primitive used to control access to shared resources.", "chunkIndex": 1, "pageNumber": 16, "mentions": ["os-6", "os-4"]},
+    {"id": "chk-2", "sectionId": "sec-4", "resourceId": "res-os-1", "content": "Binary semaphores can be used for mutual exclusion, while counting semaphores can manage multiple instances of a resource.", "chunkIndex": 2, "pageNumber": 17, "mentions": ["os-6"]}
+  ]
+}
